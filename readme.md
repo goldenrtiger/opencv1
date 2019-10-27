@@ -1,5 +1,5 @@
 # https://docs.opencv.org/3.4.3/
-#examples:
+examples:
 * LKtest.py 稀疏光
 * Lktest1.py 稠密光
 * Shi-TomasiTest.py
@@ -11,3 +11,4 @@
 * SIFT2Test.py FlannBasedMatcher
 > cv2.drawMatchesKnn(img1,kp1,img2,kp2,matches,None,flags=2) cv2.drawMatchesKnn(img1,kp1,img2,kp2,good,None,flags=2)
 > 修改if m.distance < 0.7*n.distance:为 if m.distance < 1*n.distance
+
